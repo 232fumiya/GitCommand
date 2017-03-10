@@ -12,4 +12,7 @@ git config --global alias.hback	'reset --hard HEAD^'
 git config --global alias.sback 'reset --soft HEAD^'
 git config --global alias.po    'push origin'
 git config --global alias.pu    'push upstream'
-
+git config --global alias.cl	'config --list'
+git config --global alias.bview	'branch -a'
+git config --global alias.rview 'remote -v'
+git cl
