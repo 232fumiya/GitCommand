@@ -1,7 +1,8 @@
 #! /user/bin sh
 git config --global user.name   $1
 git config --global user.email  $2
-git config --global alias.logd  'log --oneline --graph --decorate'
+git config --global alias.linelog  'log --oneline --graph --decorate'
+git config --global alias.logd  'log  --graph --decorate'
 git config --global alias.mnf   'merge --no-ff'
 git config --global alias.fu    'fetch upstream'
 git config --global alias.fo    'fetch origin'
@@ -17,3 +18,7 @@ git config --global alias.bview	'branch -a'
 git config --global alias.rview 'remote -v'
 git config --global alias.co	'checkout'
 git config --global alias.remove 'config --global --unset' 
+git config --global alias.search 'config --global --get'
+git config --global alias.confg  'config --global'
+git config --global color.branch.remote "#899BDD"
+
