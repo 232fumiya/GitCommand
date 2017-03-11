@@ -17,8 +17,6 @@ git config --global alias.cview	'config --list'
 git config --global alias.bview	'branch -a'
 git config --global alias.rview 'remote -v'
 git config --global alias.co	'checkout'
-git config --global alias.remove 'config --global --unset' 
-git config --global alias.search 'config --global --get'
-git config --global alias.confg  'config --global'
-git config --global color.branch.remote "#899BDD"
+git config --global color.ui auto
 
+echo "fin!"
